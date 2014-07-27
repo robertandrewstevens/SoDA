@@ -1,6 +1,14 @@
 # Software for Data Analysis:  Programming with R
 # by John M. Chambers
 # Chapter 3:  Programming with R:  The Basics
+# 3.1 From Commands to Functions
+# 3.2 Functions and Functional Programming
+# 3.3 Function Objects and Function Calls
+# 3.4 The Language
+# 3.5 Debugging
+# 3.6 Interactive Tracing and Editing
+# 3.7 Conditions: Errors and Warnings
+# 3.8 Testing R Software
 
 library(SoDA)
 help(Examples)
@@ -44,6 +52,8 @@ modelSne   <- dropModel(model, "sne")
 modelCover <- dropModel(model, "cloudcover")
 modelEcho  <- dropModel(model, "echomotion")
 
+## 3.2 Functions and Functional Programming
+
 ## 3.3  Function Objects and Function Calls
 
 ### Function objects
@@ -79,6 +89,8 @@ match.call(mad,
 x <- 1:10
 y <- x + 0.25*rnorm(10)
 y %perp% x
+
+## 3.4 The Language
 
 ## 3.5  Interactive Debugging by Browsing
 
@@ -144,3 +156,7 @@ trace(methods:::.onUnload, exit = browser)
 trace(.Fortran, recover)
 # Error in .makeTracedFunction(def, tracer, exit, at, print, doEdit) : 
 #   (converted from warning) making a traced version of a primitive; arguments will be treated as '...'
+
+## 3.7 Conditions: Errors and Warnings
+
+## 3.8 Testing R Software
