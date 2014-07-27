@@ -1,11 +1,23 @@
 # Software for Data Analysis:  Programming with R
 # by John M. Chambers
 # Chapter 4:  R Packages
+# 4.1 Introduction: Why Write a Package?
+# 4.2 The Package Concept and Tools
+# 4.3 Creating a Package
+# 4.4 Documentation for Packages
+# 4.5 Testing Packages
+# 4.6 Package Namespaces
+# 4.7 Including C Software in Packages
+# 4.8 Interfaces to Other Software
 
 library(SoDA)
 help(Examples)
 exampleFiles()
 #runExample(what, where, TRUE, TRUE)
+
+## 4.1 Introduction: Why Write a Package?
+
+## 4.2 The Package Concept and Tools
 
 ## 4.3  Creating a Package
 
@@ -42,6 +54,8 @@ example(lm)
 ### Why and when to give your package a namespace
 
 search()
+
+## 4.7 Including C Software in Packages
 
 ## 4.8  Interfaces to Other Software
 
