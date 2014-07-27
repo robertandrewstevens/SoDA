@@ -5,7 +5,7 @@
 library(SoDA)
 help(Examples)
 exampleFiles()
-runExample(what, where, TRUE, TRUE)
+#runExample(what, where, TRUE, TRUE)
 
 ## 2.2 An Interactive Session
 
