@@ -1,11 +1,21 @@
 # Software for Data Analysis:  Programming with R
 # by John M. Chambers
 # Chapter 2:  Using R
+# 2.1 Starting R
+# 2.2 An Interactive Session
+# 2.3 The Language
+# 2.4 Objects and Names
+# 2.5 Functions and Packages
+# 2.6 Getting R
+# 2.7 Online Information About R
+# 2.8 What’s Hard About Using R?
 
 library(SoDA)
 help(Examples)
 exampleFiles()
 #runExample(what, where, TRUE, TRUE)
+
+## 2.1 Starting R
 
 ## 2.2 An Interactive Session
 
@@ -54,6 +64,8 @@ for(j in names(mars)) print(class(mars[, j]))
 
 sapply(mars, class)
 
+## 2.4 Objects and Names
+
 ## 2.5 Functions and Packages
 
 find("dotplot")
@@ -66,3 +78,9 @@ library(gam)
 find("gam")
 library(mgcv)
 find("gam")
+
+# 2.6 Getting R
+
+# 2.7 Online Information About R
+
+# 2.8 What’s Hard About Using R?
